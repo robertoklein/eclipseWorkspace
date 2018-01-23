@@ -1,0 +1,37 @@
+import java.util.List;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Funcionario f = new Funcionario();
+		f.nome = "roberto";
+		f.datainicio = new Data();
+		f.datainicio.preencheData(19,9,2017);
+		
+		f.mostra(f);
+		
+		Funcionario f2 = f;
+
+		if(f == f2) {
+			System.out.println("iguais");
+		}else {
+			System.out.println("diferente");
+		}
+		
+		Empresa e = new Empresa();
+		e.nome="empresa1";
+		e.cnpj="12312312";
+		e.adicionar(f2);
+		e.adicionar(f);	
+		
+		List<Funcionario> lista = e.lista;
+		
+		for(Funcionario obj : lista) {
+			System.out.println("nome: " + obj.nome);
+		}
+	}
+}
+
+
+

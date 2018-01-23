@@ -1,0 +1,27 @@
+package lista5;
+
+public class Passeio implements Calc{
+
+	private int qtdPassageiro;
+	
+	public Passeio() {
+		
+	}
+	
+	
+	
+	public int getQtdPassageiro() {
+		return qtdPassageiro;
+	}
+
+	public void setQtdPassageiro(int qtdPassageiro) {
+		this.qtdPassageiro = qtdPassageiro;
+	}
+
+	@Override
+	public void calcular() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

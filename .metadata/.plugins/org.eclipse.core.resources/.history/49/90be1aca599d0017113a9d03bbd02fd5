@@ -1,0 +1,59 @@
+class Funcionario{
+	
+	public String nome;
+	public String departamento;
+	public double salario;
+	public Data datainicio;
+	public String rg;
+	
+	double calculaGanhoAnual() {
+		double total = salario * 12;
+		return total;
+	}
+	
+	double aumentaSalario(int aumento) {
+		double salarioAumentado = salario * aumento;
+		return salarioAumentado;
+	}
+	
+	void mostra() {
+		System.out.println("nome: " + nome);
+		System.out.println("data: " + datainicio);
+	}
+}
+
+class Data{
+	int dia;
+	int mes;
+	int ano;
+	
+	  void preencheData (int dia, int mes, int ano) {
+	        this.dia = dia;
+	        this.mes = mes;
+	        this.ano = ano;
+	    }
+}
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Funcionario f = new Funcionario();
+		f.nome = "roberto";
+		f.datainicio = new Data();
+		f.datainicio.preencheData(19,9,2017);
+		f.mostra();
+		
+		Funcionario f2 = f;
+
+		
+		if(f == f2) {
+			System.out.println("iguais");
+		}else {
+			System.out.println("diferente");
+		}
+	}
+}
+
+
+

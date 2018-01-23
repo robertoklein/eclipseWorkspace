@@ -1,0 +1,33 @@
+package lista5;
+
+public class Teste {
+
+	
+	public static void main(String[] args) {
+		
+		Leitura l = new Leitura();
+		int opcao = 0;
+		boolean vai = true;
+		
+		
+		
+		while(vai){
+			System.out.println("Sistema de Gestão de Veículos - Menu Inicial");
+			System.out.println("==============================================");
+			System.out.println("( 1 ) - Cadastrar uma Pessoa");
+			System.out.println("\n( 2 ) - Ver lista de Pessoas");
+			System.out.println("\n( 3 ) - Exibir uma Pessoa pelo RG");
+			System.out.println("\n( 4 ) - Alterar dados de uma Pessoa pelo RG");
+			System.out.println("\n( 5 ) - Excluir uma Pessoa pelo RG");
+			System.out.println("\n( 6 ) - Sair");
+			System.out.println("==============================================");
+
+			opcao=Integer.parseInt(l.entra(("\n Escolha uma opcao: ")));
+		
+		}
+		
+
+		
+		
+	}
+}

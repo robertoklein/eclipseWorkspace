@@ -1,0 +1,31 @@
+import exe.Main;
+
+/**
+ * essa classe nunca poderá ser acessada por outras classes por estar dentro
+ * do pacote default
+ * @author klein
+ *
+ */
+public class Produto {
+
+	
+	public static void main(String[] args) {
+		
+	int x = 15;
+	int y = x;
+	y++;
+	x++;
+	
+	int z = y;
+	z--;
+	System.out.println(x+y+z);
+
+	
+		
+		
+	}
+	
+	
+	
+	
+}

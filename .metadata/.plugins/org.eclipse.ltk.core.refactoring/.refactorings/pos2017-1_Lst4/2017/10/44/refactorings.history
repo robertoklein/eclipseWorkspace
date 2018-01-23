@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;main.Passei&apos; to &apos;Passeio&apos;&#x0A;- Original project: &apos;pos2017-1_Lst2&apos;&#x0A;- Original element: &apos;main.Passei&apos;&#x0A;- Renamed element: &apos;main.Passeio&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Passei&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;main{Passei.java[Passei" matchStrategy="1" name="Passeio" qualified="false" references="true" similarDeclarations="false" stamp="1509447069259" textual="false" version="1.0"/>
+</session>

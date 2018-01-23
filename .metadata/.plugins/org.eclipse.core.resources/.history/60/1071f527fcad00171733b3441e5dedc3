@@ -1,0 +1,35 @@
+import exe.Main;
+
+/**
+ * essa classe nunca poderá ser acessada por outras classes por estar dentro
+ * do pacote default
+ * @author klein
+ *
+ */
+public class Produto {
+
+	
+	public static void main(String[] args) {
+		
+	
+	}
+	
+	
+	
+	public void teste(boolean hungry, int amountOfFood) {
+		
+		int roonInBelly = 05;
+		
+		if(hungry) {
+			boolean timeToEat =true;
+			
+			while(amountOfFood > 0) {
+				int amountEaten = 2;
+				roonInBelly = roonInBelly - amountEaten;
+				amountOfFood = amountOfFood - amountEaten;
+			}
+			
+		}
+		System.out.println(amountOfFood);
+	}
+}

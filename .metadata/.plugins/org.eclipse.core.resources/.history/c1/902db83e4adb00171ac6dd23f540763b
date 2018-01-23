@@ -1,0 +1,54 @@
+package lista5;
+
+public class Teste {
+
+
+	public static void main(String[] args) {
+
+		Leitura l = new Leitura();
+		int opcao = 0;
+		boolean vai = true;
+
+		while(vai){
+			System.out.println("Sistema de Gestão de Veículos - Menu Inicial");
+			System.out.println("==============================================");
+			System.out.println("( 1 ) - Cadastrar uma Pessoa");
+			System.out.println("\n( 2 ) - Ver lista de Pessoas");
+			System.out.println("\n( 3 ) - Exibir uma Pessoa pelo RG");
+			System.out.println("\n( 4 ) - Alterar dados de uma Pessoa pelo RG");
+			System.out.println("\n( 5 ) - Excluir uma Pessoa pelo RG");
+			System.out.println("\n( 6 ) - Sair");
+			System.out.println("==============================================");
+
+			opcao=Integer.parseInt(l.entra(("\n Escolha uma opcao: ")));
+
+
+			switch(opcao){
+			case 1:
+				System.out.println("\n voce escolheu a opcao 1");
+				break;
+			case 2:
+				System.out.println("\n voce escolheu a opcao 2 ");
+				break;
+			case 3:
+				System.out.println("\n voce escolheu a opcao 3");
+				break;
+			case 4:
+				System.out.println("\\n voce escolheu a opcao 4");
+				break;
+			case 5:
+				System.out.println("\nvoce escolheu a opcao 5");
+				break;
+			case 6:
+				System.out.println("\n voce escolheu a opcao 6 sair!");
+				System.exit(0);
+				break;
+			default:
+				System.out.println("Outras Opcoes (Valor fora da escala do menu)..: "+opcao);
+				break; 
+			} //fim do switch
+
+		}
+
+	}
+}

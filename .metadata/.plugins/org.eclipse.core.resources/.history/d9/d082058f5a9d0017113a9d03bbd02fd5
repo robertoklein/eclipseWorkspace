@@ -1,0 +1,28 @@
+
+public class Funcionario {
+	
+	public String nome;
+	
+	public String departamento;
+	
+	public double salario;
+	
+	public Data datainicio;
+	
+	public String rg;
+	
+	double calculaGanhoAnual() {
+		double total = salario * 12;
+		return total;
+	}
+	
+	double aumentaSalario(int aumento) {
+		double salarioAumentado = salario * aumento;
+		return salarioAumentado;
+	}
+	
+	void mostra() {
+		System.out.println("nome: " + nome);
+		System.out.println("data: " + datainicio.dia + datainicio.mes + datainicio.ano);
+	}
+}

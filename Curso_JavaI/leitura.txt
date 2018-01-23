@@ -1,0 +1,5 @@
+Estou lendo do arquivo.
+que pode ter varias linhas!
+essa é a terceira linha
+
+quinta linha pq a quarta foi pulada

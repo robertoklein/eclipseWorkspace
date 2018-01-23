@@ -1,0 +1,30 @@
+import exe.Main;
+
+/**
+ * essa classe nunca poderá ser acessada por outras classes por estar dentro
+ * do pacote default
+ * @author klein
+ *
+ */
+public class Produto {
+
+	
+	public static void main(String[] args) {
+		boolean a = true;
+		
+		Produto p = new Produto();
+		p.teste(a);
+	}
+	
+	
+	
+	public void teste(boolean a) {
+		if(a) {
+			int b=1;
+			{
+		System.out.println(b);
+			}
+		}
+		
+	}
+}

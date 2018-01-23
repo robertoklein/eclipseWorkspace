@@ -1,0 +1,9 @@
+public class Main {
+	public static void main(String[] args) {	
+		Turma t = new Turma();
+		t.nome="fj11";
+		t.notas[0] = 5;
+		
+		System.out.println(t.notas[0]);
+	}
+}

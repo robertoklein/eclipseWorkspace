@@ -1,0 +1,36 @@
+public class Funcionario {
+
+	public String nome;
+
+	public String departamento;
+
+	public double salario;
+
+	public Data datainicio;
+
+	public String rg;
+
+	double calculaGanhoAnual() {
+		double total = salario * 12;
+		return total;
+	}
+
+	double aumentaSalario(int aumento) {
+		double salarioAumentado = salario * aumento;
+		return salarioAumentado;
+	}
+
+	void mostra(Funcionario f) {
+		System.out.println("nome no mostra: " + f.nome);
+	}
+
+	boolean busca(Funcionario f, Empresa e) {
+		boolean resposta=false;
+		for(Funcionario obj : e.lista) {
+			if(f == obj) {
+				resposta = true;
+			}
+		}
+		return resposta;
+	}
+}

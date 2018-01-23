@@ -1,0 +1,12 @@
+public class Main {
+	public static void main(String[] args) {	
+
+		int a = 5;
+		
+		if(a>4){
+			System.out.println("entrou no else if");
+		}else {
+			System.out.println("entrou no else");
+		}
+	}
+}

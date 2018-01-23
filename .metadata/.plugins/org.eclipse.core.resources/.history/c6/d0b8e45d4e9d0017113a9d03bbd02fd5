@@ -1,0 +1,15 @@
+public class Main {
+	public static void main(String[] args) {
+		
+		int v=13;
+		
+		while(v != 1) {
+				if(v % 2 == 0) {
+					v = v/2; 
+				}else {
+					 v = 3 * v + 1;
+				}
+				System.out.print(v+">");
+		}
+	}
+}

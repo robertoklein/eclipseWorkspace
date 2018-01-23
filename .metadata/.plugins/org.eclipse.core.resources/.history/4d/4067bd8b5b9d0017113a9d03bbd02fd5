@@ -1,0 +1,22 @@
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Funcionario f = new Funcionario();
+		f.nome = "roberto";
+		f.datainicio = new Data();
+		f.datainicio.preencheData(19,9,2017);
+		f.mostra();
+		
+		Funcionario f2 = f;
+
+		if(f == f2) {
+			System.out.println("iguais");
+		}else {
+			System.out.println("diferente");
+		}
+	}
+}
+
+
+

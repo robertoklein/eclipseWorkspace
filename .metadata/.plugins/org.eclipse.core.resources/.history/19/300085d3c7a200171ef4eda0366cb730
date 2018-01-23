@@ -1,0 +1,14 @@
+public class Main {
+	public static void main(String[] args) {	
+
+		int a = 5;
+		
+		if(a>2) {
+			System.out.println("a maior que 2");
+		}else if(a>4){
+			System.out.println("a maior que 4");
+		}else {
+			System.out.println("entrou no else");
+		}
+	}
+}

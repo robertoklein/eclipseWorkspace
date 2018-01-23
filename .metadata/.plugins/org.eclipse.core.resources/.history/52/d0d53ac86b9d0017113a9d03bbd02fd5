@@ -1,0 +1,12 @@
+import java.util.List;
+
+public class Empresa {
+	
+	public String nome;
+	public String cnpj;
+	public List<Funcionario> lista;
+	
+	void adicionar(Funcionario f) {
+	   lista.add(f);
+	}
+}

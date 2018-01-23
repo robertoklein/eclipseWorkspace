@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/home/klein/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1062393631.index
+66197000.index
+3139738185.index
+981062031.index
+711808848.index
+1141860707.index

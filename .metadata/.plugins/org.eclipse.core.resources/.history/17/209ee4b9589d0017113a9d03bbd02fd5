@@ -1,0 +1,28 @@
+public class Main {
+	
+	private String nome;
+	private String departamento;
+	private double salario;
+	private String datainicio;
+	private String rg;
+	
+	double calculaGanhoAnual() {
+		double total = salario * 12;
+		return total;
+	}
+	
+	double aumentaSalario(int aumento) {
+		double salarioAumentado = salario * aumento;
+		return salarioAumentado;
+	}
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+}
+
+
+
